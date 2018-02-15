@@ -15,6 +15,7 @@ gem 'jbuilder'
 gem 'bootstrap-sass', '3.3.7'
 gem 'devise'
 gem 'twitter'
+gem 'dotenv-rails'
 #gem 'bcrypt', '3.1.11'
 
 group :development, :test do
@@ -26,7 +27,7 @@ group :development, :test do
   gem 'database_cleaner'
   gem "factory_bot_rails"
   gem 'simplecov'
-  gem 'dotenv-rails'
+ 
 end
 
 group :development do
@@ -37,14 +38,14 @@ group :development do
   gem 'listen'
   gem 'spring'
   gem 'spring-watcher-listen'
-  gem 'dotenv-rails'
+  
 end
 
 group :test do
   gem 'capybara'
   gem 'poltergeist'
   gem 'shoulda-matchers'
-  gem 'dotenv-rails'
+  
 end
 
 group :production do
